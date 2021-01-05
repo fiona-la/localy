@@ -1,0 +1,33 @@
+{
+  "name": "fetch-proxy",
+  "version": "1.0.0",
+  "description": "avoiding cors errors",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node proxy.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fionala-code/fetch-proxy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fionala-code/fetch-proxy/issues"
+  },
+  "homepage": "https://github.com/fionala-code/fetch-proxy#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "https": "^1.0.0",
+    "node-fetch": "^2.6.1",
+    "querystring": "^0.2.0",
+    "url": "^0.11.0"
+  },
+  "engines": {
+    "node": "12.x"
+  }
+}
